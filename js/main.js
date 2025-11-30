@@ -148,8 +148,13 @@ cards.forEach(card => {
   });
 });
 
-
-
+try {
+  document.querySelector('#book-call-button').addEventListener('click', function(e) {
+    document.getElementById('consult').checked = true;
+  });
+} catch (e) {
+  //no book call button on page
+}
 document.querySelector('.contact-form').addEventListener('submit', function(e) {
   e.preventDefault(); // prevent normal form submission
 
@@ -168,7 +173,7 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
     `${message}\n\n` +
     "------------------------\n\n" +
     `How did you find us: ${referral}\n\n` +
-    `Consultation request: ${consult}`
+    `Call request: ${consult}`
   );
 
   const mailtoLink = `mailto:contact.appanid@gmail.com?subject=${subject}&body=${body}`;
@@ -269,4 +274,19 @@ window.addEventListener('click', e => {
   if (e.target.classList.contains('project-modal')) {
     e.target.classList.remove('active');
   }
+});
+
+
+const backToTop = document.getElementById('back-to-top');
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+};
+
+backToTop.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
