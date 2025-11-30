@@ -122,6 +122,12 @@
   .who-we-help { margin:3rem 1rem; }
   .values { grid-template-columns:1fr; gap:12px; }
   .value-icon { width:40px; height:40px; }
+
+  .social-icons {
+    gap: 24px;
+    flex-direction: column;
+    align-items: flex-start
+  }
 }
 
 /* Make all images responsive */
