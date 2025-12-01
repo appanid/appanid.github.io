@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- ✅ Title -->
+  <title>Appanid — Flutter App-Entwicklung für Sprachschulen in Sachsen & E-Learning Apps</title>
+
+  <!-- ✅ Meta Description -->
+  <meta name="description" content="Appanid entwickelt hochwertige Flutter-Apps für Sprachschulen in Sachsen, E-Learning-Plattformen und wachsende Unternehmen. Wir helfen Schulinhabern, schnell skalierbare mobile Lösungen für ihre Schüler zu starten — von der Idee bis in den App Store.">
+
+  <!-- ✅ Keywords -->
+  <meta name="keywords" content="Sprachschulen Sachsen Apps, Flutter Entwicklung, mobile App Entwicklung, E-Learning Apps, MVP Entwicklung, SME App Entwicklung, individuelle App Entwicklung, Appanid">
+
+  <!-- ✅ Author -->
+  <meta name="author" content="Appanid">
+
+  <!-- ✅ Open Graph (for social previews) -->
+  <meta property="og:title" content="Appanid — Flutter App-Entwicklung für Sprachschulen in Sachsen & E-Learning Apps">
+  <meta property="og:description" content="Wir entwickeln skalierbare Flutter-Apps für Sprachschulen in Sachsen, damit Schulinhaber Schüler besser einbinden und mobile Lernlösungen schnell starten können.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://appanid.com/">
+  <meta property="og:image" content="https://appanid.com/favicon.ico">
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Appanid — Flutter App-Entwicklung für Sprachschulen in Sachsen & E-Learning Apps">
+  <meta name="twitter:description" content="Appanid hilft Startups und KMU, schöne, skalierbare Flutter-Apps zu erstellen — vom MVP bis zum vollständigen Launch.">
+  <meta name="twitter:image" content="https://appanid.com/favicon.ico">
+
+  <!-- ✅ Favicon & Styles -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles-e-learning.css">
+  <link rel="stylesheet" href="css/styles_mobile.css">
+
+  <style>
+    @media (max-width: 900px) {
+      .hero-video-container {
+        opacity: 0;
+      }
+      .hero {
+        background: #fefefe;
+      }
+    }
+    @media (max-width: 570px) {
+      #hero-title {
+        margin-top: 32px;
+      }
+    }
+  </style>
+
+  <!-- ✅ Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button id="back-to-top" title="Go to top"><img src="assets/icons/up-arrow.png" style="width: 24px; margin-top: 3px;" alt="Back to top"></button>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="assets/appanid-logo.png" alt="Appanid Logo">
+      </a>
+      <nav class="main-nav">
+        <a class="logo logo-white" href="index.html">
+          <img src="assets/appanid-logo-white.png" alt="Appanid Logo">
+          <br><br>
+        </a>
+        <ul>
+          <li><a href="#pilot">Leistungen</a></li>
+          <li><a href="index.html#projects">Projekte</a></li>
+          <li><a href="#trust">Bewertungen</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li><a href="sprachschulen_projekte.html">Angebot für Schulen</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <div></div>
+        <div></div>
+        <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+        <a href="#contact"><button class="btn btn-outline">Kontakt aufnehmen</button></a>
+        <button class="lang">
+          <a href="sprachschulen_projekte.html" style="color: #F99C10; text-decoration: none;">DE</a> | 
+          <a href="e-learning_projects.html" style="color: #F99C10; text-decoration: none;">EN</a>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO (German B2B optimized) -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-video-container" aria-hidden="true">
+        <img class="hero-video" src="assets/saxony-e-learning-mobile-app.jpg" alt="Beispiel: Mobile Lern-App für Sprachschulen in Sachsen">
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-left reveal" id="hero-copy">
+          <h1 id="hero-title">Die Mobile App für Ihre Sprachschule.</h1>
+
+          <p class="hero-sub" style="font-size:22px; margin-bottom:18px; color:#444;">
+            Fertig in 4–6 Wochen. Zuverlässig. Messbar. Effektiv.
+          </p>
+
+          <ul class="hero-benefits" style="list-style:none; padding:0; margin:0 0 24px 0; font-size:18px; line-height:1.6;">
+            <li>✔ Schnelle Bereitstellung — lauffähige App in 4–6 Wochen.</li>
+            <li>✔ Markengerecht & individuell — keine Standard-Templates.</li>
+            <li>✔ Transparente Konditionen — kein Kleingedrucktes, kein Risiko.</li>
+          </ul>
+
+          <div class="hero-ctas" style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+            <a href="#contact" class="btn btn-primary" aria-label="Unverbindliches Angebot anfordern">Unverbindliches Angebot anfordern</a>
+            <a href="#contact" class="btn btn-outline" aria-label="20-minütiges Gespräch buchen">20-minütiges Gespräch</a>
+          </div>
+
+          <p class="hero-micro" style="margin-top:14px; color:var(--muted); font-size:14px;">
+            Erfolgreiche Pilotprojekte mit Sprachschulen in Sachsen • GDPR-konform • EU-Hosting möglich
+          </p>
+        </div>
+
+        <div class="hero-right reveal" aria-hidden="true">
+          <!-- optional: founder photo / small app mockup or badges -->
+          <!-- <img src="assets/founder-photo.jpg" alt="Founder photo" style="border-radius:8px; max-width:100%; box-shadow:0 8px 24px rgba(6,19,63,0.08);"> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUE / FEATURES SECTION -->
+    <section id="value" class="reveal" style="padding:80px 0; background:#f9f9f9;">
+      <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:end;">
+
+        <!-- LEFT: Text -->
+        <div class="value-text">
+          <h3 style="color:var(--teal); font-size:18px; letter-spacing:1px;">Für wen ist das gedacht?</h3>
+
+          <style>
+            @media (max-width: 400px) {
+              .value-text h2 {
+                font-size:28px !important;
+              }
+              .features-list {
+                grid-template-columns:1fr !important;
+              }
+            }
+          </style>
+          <h2 style="font-size:38px; line-height:1.3; margin:16px 0;">
+            Mobile Apps für <span class="highlight">Sprachschulen, Nachhilfelehrkräfte und Bildungszentren</span>
+          </h2>
+
+          <p style="font-size:18px; color:#444; margin-bottom:32px;">
+            Binden Sie Ihre Lernenden stärker ein, verwalten Sie Ihre Kurse effizienter und behalten Sie den Lernfortschritt jederzeit im Blick – alles in einer einzigen App.
+          </p>
+
+          <!-- Features list -->
+          <div class="features-list" style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+
+            <div class="card" style="padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.06); display:flex; align-items:flex-start; gap:12px;">
+              <div>
+                <h4 style="margin:0 0 6px 0;">📚 Kurszugang</h4>
+                <p style="margin:0; color:var(--muted); font-size:15px;">
+                  Lernende greifen jederzeit und überall auf ihre Kurse zu – mobil und flexibel.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.06); display:flex; align-items:flex-start; gap:12px;">
+              <div>
+                <h4 style="margin:0 0 6px 0;">📈 Fortschrittsübersicht</h4>
+                <p style="margin:0; color:var(--muted); font-size:15px;">
+                  Verfolgen Sie den Lernfortschritt in Echtzeit mit klaren, aussagekräftigen Analysen.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.06); display:flex; align-items:flex-start; gap:12px;">
+              <div>
+                <h4 style="margin:0 0 6px 0;">📝 Tests & Quizze</h4>
+                <p style="margin:0; color:var(--muted); font-size:15px;">
+                  Einfach zu erstellende Quizze, die Motivation und Lernfortschritte steigern.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.06); display:flex; align-items:flex-start; gap:12px;">
+              <div>
+                <h4 style="margin:0 0 6px 0;">💳 Zahlungen</h4>
+                <p style="margin:0; color:var(--muted); font-size:15px;">
+                  Integrierte Zahlungen für Kurse, Abos oder Zusatzmaterial – sofort, direkt in der App.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <style>
+          @media (max-width: 768px) {
+            .value-image {
+              align-items: center !important;
+            }
+            .value-image img {
+              max-width: 100%;
+            }
+            .value-image a {
+              display: none;
+            }
+          }
+        </style>
+
+        <!-- RIGHT: Illustration / Screenshot -->
+        <div class="value-image" style="display:flex; align-items: flex-end; flex-direction:column;">
+          <!-- CTA -->
+          <br>
+          <!-- <a href="#contact" class="btn btn-primary" style="margin:32px 0; width:fit-content;">Get a Free Quote</a> -->
+          <img src="assets/e-learning-language-app-mockup.png" alt="App Screenshot" style="max-width:70%;">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US / TRUST -->
+    <section id="trust" class="trust-section reveal" aria-labelledby="trust-heading">
+      <div class="container trust-grid">
+
+        <!-- Left Column -->
+        <div class="trust-left">
+          <h4 id="trust-heading">Warum Appanid?</h4>
+          <p class="subtitle">Schnellere Ergebnisse. Smartere Prozesse. Spürbarer Lernerfolg.</p>
+
+          <div class="accordion" role="tablist" aria-multiselectable="true">
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false" aria-controls="acc-1" id="acc-1-btn">
+                <span class="acc-title">⚡ Geschwindigkeit & Effizienz</span>
+                <span class="arrow" aria-hidden="true">▾</span>
+              </button>
+              <div class="accordion-content" id="acc-1" role="region" aria-labelledby="acc-1-btn">
+                <p>Ein kleines, fokussiertes Team + wiederverwendbare Flutter-Module + AI-Tooling = Bereitstellung in Wochen statt Monaten — ohne Qualitätsverlust.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false" aria-controls="acc-2" id="acc-2-btn">
+                <span class="acc-title">📚 E-Learning-Expertise</span>
+                <span class="arrow" aria-hidden="true">▾</span>
+              </button>
+              <div class="accordion-content" id="acc-2" role="region" aria-labelledby="acc-2-btn">
+                <p>Wir entwickeln Sprachlern-, Coaching- und Corporate-Training-Apps, die Lernende wirklich motivieren und langfristig binden.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false" aria-controls="acc-3" id="acc-3-btn">
+                <span class="acc-title">🤝 Partnerschaftlicher Prozess</span>
+                <span class="arrow" aria-hidden="true">▾</span>
+              </button>
+              <div class="accordion-content" id="acc-3" role="region" aria-labelledby="acc-3-btn">
+                <p>Klare Meilensteine, Live-Demos und kurze Feedback-Schleifen — wir arbeiten als Ihr Technologiepartner, nicht als undurchsichtiger Dienstleister.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false" aria-controls="acc-4" id="acc-4-btn">
+                <span class="acc-title">💎 Qualität & Erweiterbarkeit</span>
+                <span class="arrow" aria-hidden="true">▾</span>
+              </button>
+              <div class="accordion-content" id="acc-4" role="region" aria-labelledby="acc-4-btn">
+                <p>Sauberer, gut getesteter Flutter-Code und ein modularer Kern sorgen dafür, dass Ihre App stabil bleibt und später problemlos erweitert werden kann.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column (Reviews) -->
+        <div class="trust-right">
+          <div class="review-card fiverr" aria-hidden="false">
+            <strong>★★★★★ 20+ verifizierte Kundenbewertungen für Geschwindigkeit, Zuverlässigkeit und Kommunikation.</strong>
+            <p>Unser CEO und Lead-Flutter-Developer ist ein 5-Sterne-Fiverr-Seller mit mehr als 20 verifizierten Top-Bewertungen für schnelle Lieferung, ausgezeichnete Kommunikation und hochwertige Flutter-Apps.<br><br>Start-ups und Bildungsanbieter verlassen sich auf ihn, wenn es um die Umsetzung ihrer App-Ideen geht.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PILOT SECTION -->
+    <section id="pilot" class="pilot-section reveal">
+      <div class="pilot-container">
+
+        <!-- Header -->
+        <div class="pilot-header-wrapper">
+          <div class="pilot-header-text-wrapper">
+            <h2 class="pilot-title">4–6-Wochen Mobile-App-Pilot (Fester Leistungsumfang)</h2>
+            <p class="pilot-subtitle">Klar definierter, risikoarmer Pilot, der eine voll funktionsfähige Trainings-App für iOS & Android liefert.</p>
+          </div>
+
+          <div class="pilot-cta-wrapper">
+            <a href="#contact" class="btn btn-primary">20-Minuten-Gespräch buchen</a>
+          </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="pilot-grid-wrapper">
+
+          <!-- Left: Details -->
+          <div class="pilot-details">
+            <div class="pilot-card">
+              <h3 class="pilot-card-title">Leistungsumfang</h3>
+              <ul class="pilot-card-list">
+                <li>Kurse, Lernpfade & Quiz-Funktionen</li>
+                <li>UI im eigenen Branding (Farben, Logo, Screens)</li>
+                <li>Zahlungen (Kurse, Abos, Add-ons)</li>
+                <li>Basis-Reporting</li>
+                <li>TestFlight- / Android-Testversion</li>
+              </ul>
+            </div>
+
+            <div class="pilot-card">
+              <h3 class="pilot-card-title">Zeitplan</h3>
+              <ol class="pilot-card-list">
+                <li><strong>Woche 1:</strong> Abstimmung & UI-Entwurf</li>
+                <li><strong>Woche 2–4:</strong> Entwicklung</li>
+                <li><strong>Woche 5–6:</strong> QA, Rollout, Pilot-Übergabe</li>
+              </ol>
+            </div>
+
+            <div class="pilot-card">
+              <h3 class="pilot-card-title">Ergebnis</h3>
+              <ul class="pilot-card-list">
+                <li>Bereit zur Nutzung: Pilot-App</li>
+                <li>Quellcode & Dokumentation</li>
+                <li>KPI-Ergebnisse (Nutzung, Abschlussquote, Engagement)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right: Compliance / Pricing box -->
+          <aside class="pilot-aside">
+            <h3 class="pilot-aside-title">Preis & Compliance</h3>
+            <p class="pilot-aside-text">Festpreis nach Abstimmungsgespräch</p>
+            <p class="pilot-aside-text">DSGVO-konform / EU-Hosting optional</p>
+            <p class="pilot-aside-text">Vollständige IP- und Quellcode-Übertragung</p>
+            <p class="pilot-aside-text">30 Tage Support nach Übergabe</p>
+            <a href="#contact" class="btn btn-outline" style="text-align: center; margin-top: 16px;">Festpreis anfragen</a>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="contact-section reveal">
+      <form class="contact-form" novalidate>
+        <div class="contact-header" style="max-width:700px; margin-bottom:24px;">
+          <h2>Bereit für eine Demo?</h2>
+          <p>
+            Füllen Sie das Formular aus, und unsere erfahrenen Flutter-Entwickler melden sich mit einem unverbindlichen Angebot und den nächsten Schritten, um Ihre <strong>mobile</strong> <strong>E-Learning-App</strong> umzusetzen.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="name" name="name" required>
+          <label for="name">Name *</label>
+        </div>
+
+        <div class="form-group">
+          <select id="referral" name="referral" required>
+            <option value="" disabled selected hidden></option>
+            <option>Online-Werbung</option>
+            <option>LinkedIn</option>
+            <option>Google-Suche</option>
+            <option>Empfehlung z. B. durch einen Freund</option>
+            <option>Andere</option>
+          </select>
+          <label for="referral">Wie haben Sie uns gefunden? *</label>
+        </div>
+
+        <div class="form-group textarea-group">
+          <textarea id="message" name="message" required></textarea>
+          <label for="message">Was möchten Sie umsetzen? *</label>
+        </div>
+
+        <p class="error-message" id="form-error">Bitte füllen Sie alle Pflichtfelder aus.</p>
+
+        <div class="checkbox-row">
+          <input type="checkbox" id="consult" name="consult">
+          <label for="consult">Ich möchte ein unverbindliches Beratungsgespräch vereinbaren (auf Englisch)</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="font-weight: 500; font-size: 16px;">Kostenloses Angebot anfordern</button>
+        <button type="submit" id="book-call-button" class="btn btn-outline" style="margin-top: -8px; margin-bottom: 24px; font-weight: 500; font-size: 16px;">Kostenloses Gespräch buchen (auf Englisch)</button>
+
+        <p class="response-note">Antwort garantiert innerhalb von 24 Stunden.</p>
+        <p class="closing-reassurance">
+          Die Angebotsanfrage ist vollkommen unverbindlich. Wir schlagen nur Lösungen vor, die zu Ihren Zielen und Ihrem Budget passen.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <!-- Left: Logo / Company Info / Contact -->
+      <div class="footer-left">
+        
+        <!-- Logo -->
+        <a href="index.html">
+          <div class="footer-logo">
+            <img src="assets/appanid-logo-white.png" alt="Appanid Logo">
+          </div>
+        </a>
+
+        <!-- Company Info -->
+        <div class="footer-company">
+          <br>
+          <p><strong>Appanid Sp. z o.o.</strong></p>
+          <br>
+          <p>VAT-UE: <b>PL7511793471</b></p>
+          <p>KRS: <b>0001194627</b></p>
+          <p>NIP: <b>7511793471</b></p>
+        </div>
+
+        <!-- Contact / Socials -->
+        <div class="footer-contact">
+          <b>Kontakt:</b>
+          <p>Email: <a href="mailto:contact.appanid@gmail.com" target="_blank">contact.appanid@gmail.com</a></p>
+          <div class="social-icons">
+            <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js" async></script><div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45" data-nofollow="false" data-expandifr="true" data-clutchcompany-id="2585389"></div>
+            <a href="https://www.linkedin.com/company/appanid/" target="_blank" title="LinkedIn"><img src="assets/linkedin-logo.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: CTA + Links -->
+      <div class="footer-right">
+        <style>
+          @media (max-width: 600px) {
+            .footer-right .btn-primary {
+              font-size: 12px;
+            }
+          }
+        </style>
+        <a href="index.html#contact" class="btn btn-primary btn-footer" style="font-weight: 600; font-size: 16px;">Kostenloses Angebot anfordern</a>
+        <nav class="footer-links-column">
+          <a href="privacy-policy.html">Datenschutz</a>
+          <a href="terms-of-service.html">AGB</a>
+          <a href="#pilot">Leistungen</a>
+          <a href="index.html#projects">Projekte</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+  _linkedin_partner_id = "8369420";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script><script type="text/javascript">
+  (function(l) {
+  if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+  window.lintrk.q=[]}
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);})(window.lintrk);
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=8369420&fmt=gif" />
+  </noscript>
+  <script src="js/main.js"></script>
+</body>
+</html>
