@@ -174,6 +174,8 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
   const mailtoLink = `mailto:contact.appanid@gmail.com?subject=${subject}&body=${body}`;
 
   window.open(mailtoLink);
+
+  window.lintrk('track', { conversion_id: 22844852 });
 });
 
 
